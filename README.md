@@ -1,116 +1,322 @@
 # ☕ Java-Question
 
-A collection of **Java programming questions, concepts, and practice programs** created to strengthen problem-solving and programming fundamentals.
+### `From First Line of Code → Problem Solver`
 
-## 📌 About This Repository
+> A structured collection of my Java experiments, coding challenges, mistakes, solutions, and problem-solving journey.
 
-This repository contains my Java learning journey, including basic programs, programming questions, and practice problems.
+---
 
-The main goal is to build strong fundamentals in Java and gradually improve **problem-solving, logical thinking, and coding skills**.
+## 🧠 What is this Repository?
 
-## 🛠️ Technologies Used
+**Java-Question** is not just a collection of Java programs.
 
-* **Java**
-* **JDK**
-* **VS Code / IntelliJ IDEA / Eclipse**
-* **Git & GitHub**
+It is my **personal Java Learning Lab** — where I write code, break things, fix them, and gradually turn programming concepts into problem-solving skills.
 
-## 📚 Topics Covered
+Every program in this repository represents one step in my journey from:
 
-* Java Basics
-* Variables & Data Types
-* Operators
-* User Input
-* Conditional Statements
-* `if-else`
-* `switch`
-* Loops
+```text
+Beginner
+   ↓
+Java Fundamentals
+   ↓
+Logical Thinking
+   ↓
+Problem Solving
+   ↓
+DSA
+   ↓
+Interview Ready
+```
 
-  * `for`
-  * `while`
-  * `do-while`
-* Arrays
-* Strings
-* Methods
-* Object-Oriented Programming
-* Exception Handling
-* Collections
-* Problem Solving
-* DSA Basics
+---
 
-## 📂 Repository Structure
+## ⚡ Repository Philosophy
+
+I follow a simple rule:
+
+> **Don't just learn the syntax. Understand why the code works.**
+
+For every concept, I try to follow:
+
+```text
+Learn → Code → Break → Debug → Understand → Improve
+```
+
+This repository documents that process.
+
+---
+
+## 🗺️ Java Learning Map
+
+| Level | Focus               | Status      |
+| ----- | ------------------- | ----------- |
+| `01`  | Java Fundamentals   | 🟢 Learning |
+| `02`  | Conditions & Loops  | 🟢 Learning |
+| `03`  | Arrays & Strings    | 🟡 Upcoming |
+| `04`  | Methods & Functions | 🟡 Upcoming |
+| `05`  | OOP                 | 🔵 Planned  |
+| `06`  | Collections         | 🔵 Planned  |
+| `07`  | Exception Handling  | 🔵 Planned  |
+| `08`  | DSA                 | 🔵 Planned  |
+| `09`  | Problem Solving     | 🔵 Planned  |
+| `10`  | Interview Problems  | 🔵 Planned  |
+
+---
+
+## 🔥 What's Inside?
+
+Instead of randomly uploading programs, I am organizing my learning around **three things**:
+
+### 💻 01 — Concept
+
+Understanding the Java concept.
+
+### 🧩 02 — Implementation
+
+Writing the concept into actual Java code.
+
+### 🧠 03 — Problem Solving
+
+Using that concept to solve programming problems.
+
+---
+
+## 🧪 My Coding Lab
+
+Some programs may look simple.
+
+That's intentional.
+
+Before solving complex DSA problems, I want to build strong fundamentals through small experiments.
+
+Example:
+
+```java
+for (int i = 1; i <= 10; i++) {
+    System.out.println(i);
+}
+```
+
+Simple code.
+
+But behind it are important concepts:
+
+```text
+Variable
+   ↓
+Initialization
+   ↓
+Condition
+   ↓
+Iteration
+   ↓
+Increment
+```
+
+The goal is not to write **more code**.
+
+The goal is to **understand code better**.
+
+---
+
+## 📂 Project Structure
 
 ```text
 Java-Question/
 │
-├── first.java
+├── 01-Basics/
+│   ├── Variables
+│   ├── DataTypes
+│   ├── InputOutput
+│   └── Operators
+│
+├── 02-Conditions/
+│   ├── IfElse
+│   └── Switch
+│
+├── 03-Loops/
+│   ├── ForLoop
+│   ├── WhileLoop
+│   └── DoWhile
+│
+├── 04-Arrays/
+│
+├── 05-Strings/
+│
+├── 06-Methods/
+│
+├── 07-OOP/
+│
+├── 08-Collections/
+│
+├── 09-DSA/
+│
+├── 10-Problems/
+│
 ├── README.md
 └── .gitignore
 ```
 
-> More Java programs and practice questions will be added as I continue learning.
+---
 
-## ▶️ How to Run
+## 🛠️ Tech Stack
 
-### 1. Clone the Repository
+```text
+Language       → Java
+JDK            → Java Development Kit
+IDE            → VS Code
+Version Control→ Git
+Repository     → GitHub
+```
+
+---
+
+## ▶️ Run Any Program
+
+Clone the repository:
 
 ```bash
 git clone https://github.com/mohitpachauri0095/Java-Question.git
 ```
 
-### 2. Open the Project
+Move into the project:
 
 ```bash
 cd Java-Question
 ```
 
-### 3. Compile the Java Program
+Compile:
 
 ```bash
-javac first.java
+javac FileName.java
 ```
 
-### 4. Run the Program
+Run:
 
 ```bash
-java first
+java FileName
 ```
 
-## 🎯 Goals
+---
 
-* Strengthen Java fundamentals
-* Improve logical thinking
-* Practice coding regularly
-* Learn Data Structures and Algorithms
-* Prepare for coding interviews
-* Build a strong programming foundation
+## 📈 Progress Tracker
 
-## 🚀 Learning Progress
+```text
+Java Fundamentals     ███████░░░  70%
+Problem Solving       ████░░░░░░  40%
+DSA                   ██░░░░░░░░  20%
+OOP                   ██░░░░░░░░  20%
+```
 
-* [x] Java Basics
-* [x] Variables & Data Types
-* [x] Input & Output
-* [x] Conditional Statements
-* [x] Loops
-* [ ] Arrays
-* [ ] Strings
-* [ ] Methods
-* [ ] OOP
-* [ ] Collections
-* [ ] Exception Handling
-* [ ] DSA
-* [ ] Advanced Java
+> Progress is updated as I continue learning.
 
-## 👨‍💻 Author
+---
+
+## 🧩 Problems I Want to Master
+
+```text
+✓ Basic Logic
+✓ Pattern Problems
+✓ Searching
+✓ Sorting
+✓ Arrays
+✓ Strings
+□ Recursion
+□ Linked List
+□ Stack
+□ Queue
+□ Hashing
+□ Trees
+□ Graphs
+□ Dynamic Programming
+```
+
+---
+
+## 🐛 The "Bug → Fix → Learn" Rule
+
+I don't consider errors a failure.
+
+When a program doesn't work:
+
+```text
+ERROR
+  ↓
+Understand the error
+  ↓
+Find the reason
+  ↓
+Fix the code
+  ↓
+Learn from it
+```
+
+Some of the most useful things I learn come from code that **doesn't work on the first attempt.**
+
+---
+
+## 🎯 Long-Term Goal
+
+This repository is being built with one final destination:
+
+### `Become a Strong Problem Solver`
+
+Not just someone who knows Java syntax.
+
+But someone who can:
+
+```text
+Understand a problem
+       ↓
+Break it into smaller parts
+       ↓
+Build the logic
+       ↓
+Write clean code
+       ↓
+Analyze complexity
+       ↓
+Optimize the solution
+```
+
+---
+
+## 👨‍💻 About Me
 
 **Mohit Pachauri**
 
 B.Tech Computer Science Student
 
-GitHub: [mohitpachauri0095](https://github.com/mohitpachauri0095)
+Currently focused on:
+
+`Java` • `DSA` • `Problem Solving` • `Software Development`
+
+### My current mission:
+
+> **Build strong fundamentals today so I can solve difficult problems tomorrow.**
 
 ---
 
-⭐ If you find this repository useful, feel free to star it!
+## ⭐ Repository Status
 
-> **"Code. Practice. Learn. Repeat."**
+This repository is **actively evolving**.
+
+New concepts, problems, experiments, and better solutions will be added as my skills improve.
+
+```text
+Started with:
+System.out.println("Hello World");
+
+Working towards:
+System.out.println("Problem Solved.");
+```
+
+---
+
+### 💙 If you're also learning Java...
+
+Feel free to explore the repository, learn from the code, or suggest a better approach.
+
+**Keep coding. Keep debugging. Keep improving.**
+
+`#Java #DSA #Programming #ProblemSolving #LearningInPublic`
