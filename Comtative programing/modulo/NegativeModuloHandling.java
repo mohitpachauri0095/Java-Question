@@ -7,6 +7,7 @@ public class NegativeModuloHandling {
         long m = sc.nextLong();
         long ans = ((a%m)+m)%m;
         System.out.println(ans);
-
+        sc.close();
     }
+    
 }
