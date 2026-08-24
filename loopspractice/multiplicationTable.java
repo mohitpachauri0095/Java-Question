@@ -8,7 +8,7 @@ public class multiplicationTable {
             // number = number *i;
             System.out.println(number * i);
         }
-        
+        sc.close();
     }
     
 }
