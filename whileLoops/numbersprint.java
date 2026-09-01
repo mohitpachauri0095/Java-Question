@@ -5,6 +5,6 @@ public class numbersprint {
             System.out.println(i);
               i++;
         }
-      
+        
     }
 }
