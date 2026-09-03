@@ -5,7 +5,8 @@ public class sum {
         while ( i <=10){
             sum = sum+i;
             i++;
-            System.out.println("sum - " + sum);
+
         }
+                    System.out.println("sum - " + sum);
     }
 }
