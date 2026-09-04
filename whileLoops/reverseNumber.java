@@ -1,13 +1,12 @@
 public class reverseNumber {
     public static void main (String args []){
-        int i=0;
-        while (i < 5  % 10){
-             
-            System.out.print(i);
-          
+        int number = 12345;
+        int reverse = 0;
+        while (number >0){
+            int digit = number % 10;
+            reverse = reverse * 10 + digit;
+            number = number /10;
         }
-         i++;
-            
-      
+        System.out.println(reverse);
     }
 }
