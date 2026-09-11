@@ -2,13 +2,11 @@
 
 public class lastdigittwogivinnum {
     public static void main (String args []){
-        int num1 = 12345;
-        int num2 = 65433;
-
-        int digit1= num1%10;
-        int digit2= num2 %10;
-
-        int sum = digit1 + digit2;
+        int number =124354;
+        int number2 = 65432343;
+        int digit = number %10;
+        int digit1 = number2 %10;
+        int sum = digit + digit1;
         System.out.println(sum);
 
     }
